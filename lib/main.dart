@@ -49,8 +49,7 @@ class _WebViewExampleState extends State<WebViewExample> {
                       child: WebView(
                     key: _key,
                     javascriptMode: JavascriptMode.unrestricted,
-                    //initialUrl:'https://preview-jcp.corrigo.com',  //Test
-                    initialUrl:'https://jcp.corrigo.com',            //Production
+                    initialUrl:'https://enter your url',  
                     onWebViewCreated: (WebViewController webViewController) {
                       _controller.complete(webViewController);
                     },
